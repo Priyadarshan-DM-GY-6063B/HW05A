@@ -38,6 +38,6 @@ The clock also features a smooth gradient background that changes based on the t
 - **Pulsing Circles**: The circles representing the hour, minute, and second pulse dynamically, with their sizes modulated by the sine function over time.
 - **Gradient Background**: The background color changes smoothly throughout the day, transitioning between different gradients based on the current time.
 - **Mouse Interaction**: The user can click anywhere on the canvas to toggle between day and night modes, altering the clock’s visual appearance.
-- **Digital Time Display**: The current time is also displayed digitally in the center of the canvas, showing the exact hour, minute, and second.
+- **Digital Time Display**: The current time is also displayed digitally in the center of the canvas, showing the exact hour, minute, and second
 
 
