@@ -31,6 +31,7 @@ The clock also features a smooth gradient background that changes based on the t
 - **Afternoon (12 PM - 6 PM)**: Light blue and yellow gradient.
 - **Evening (6 PM - 9 PM)**: Warm red and dark gradient.
 - **Night (9 PM - 6 AM)**: Dark blue to dark gray gradient.
+- **Post-11 PM**: White background.
 
 ## Implementation
 
@@ -38,6 +39,20 @@ The clock also features a smooth gradient background that changes based on the t
 - **Pulsing Circles**: The circles representing the hour, minute, and second pulse dynamically, with their sizes modulated by the sine function over time.
 - **Gradient Background**: The background color changes smoothly throughout the day, transitioning between different gradients based on the current time.
 - **Mouse Interaction**: The user can click anywhere on the canvas to toggle between day and night modes, altering the clock’s visual appearance.
-- **Digital Time Display**: The current time is also displayed digitally in the center of the canvas, showing the exact hour, minute, and second
+- **Digital Time Display**: The current time is also displayed digitally in the center of the canvas, showing the exact hour, minute, and second.
+
+## How to Test
+
+To test different times, you can manually set the `currentHour` in the code. This will allow you to simulate various times of the day and check how the background changes.
+
+1. **Set `currentHour` for Testing**: In the `setup()` and `draw()` functions, change the value of `currentHour` (e.g., `let currentHour = 14;`) to simulate different hours of the day.
+2. **Background Changes Based on Time**:
+   - **Morning**: Between 6 AM - 12 PM (Soft yellow-orange gradient).
+   - **Afternoon**: Between 12 PM - 6 PM (Light blue and yellow gradient).
+   - **Evening**: Between 6 PM - 9 PM (Warm red and dark gradient).
+   - **Night**: Between 9 PM - 6 AM (Dark blue to dark gray gradient).
+   - **Post-11 PM**: White background.
+
+3. **Click for Interactivity**: Click anywhere on the canvas to toggle between day and night modes and observe the background transition accordingly.
 
 
